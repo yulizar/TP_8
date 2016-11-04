@@ -9,12 +9,11 @@ package model;
  *
  * @author Yulizar
  */
-public class Sewa6Jam implements StrategiPenyewaan{
+public class Sewa12Jam implements StrategiPenyewaan {
 
     @Override
     public double kalkulasiBiaya(long biaya) {
-        return biaya;
+        return biaya*0.1;
     }
-    
     
 }
